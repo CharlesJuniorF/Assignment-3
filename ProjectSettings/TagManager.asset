@@ -5,11 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - PlayerBall
+  - Field
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Field
   - Water
   - UI
   - 
