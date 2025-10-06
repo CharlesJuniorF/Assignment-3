@@ -7,6 +7,12 @@ public class GameManager : MonoBehaviour
     public int lives = 3;
     public GameObject ballPreFab;
     public Transform ballStart;
+    public GameObject gameOverPanel;
+
+    private void Start()
+    {
+        gameOverPanel.SetActive(false);
+    }
 
     public void Endball()
     {
@@ -15,7 +21,7 @@ public class GameManager : MonoBehaviour
         if (lives == 0)
         {
             //show game over
-
+            gameOverPanel.SetActive(true);
         }
         else
         {

@@ -9,7 +9,6 @@ public class TargetBank : MonoBehaviour
     public float timeToReset = .5f;
 
     private bool waitingToReset = false;
-
     private void Update()
     {
         if (waitingToReset)

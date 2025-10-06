@@ -245,6 +245,7 @@ MonoBehaviour:
   - {fileID: 8476759697075139066}
   - {fileID: 7791994181637519393}
   points: 150
+  timeToReset: 0.5
 --- !u!1 &7791994181637519393
 GameObject:
   m_ObjectHideFlags: 0
