@@ -4,12 +4,19 @@ using UnityEngine;
 
 public class Plunger : MonoBehaviour
 {
-    public float launchforce = 1f;
+    public float launchforce = 0.01f;
     public float fullForceDuation = 0.8f;
     public Rigidbody rb;
 
     private float secondsHold = 0f;
 
+    private AudioSource sound;
+
+    private void Start()
+    {
+        //get the sound
+        sound = GetComponentInChildren<AudioSource>();
+    }
     // Update is called once per frame
     void Update()
     {
@@ -21,18 +28,15 @@ public class Plunger : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.Space))
         {
             float timePct = secondsHold / fullForceDuation;
+
             if (timePct > 10 )
             {
                 timePct = 1;
             }
 
-            if (launchforce > 75)
-            {
-                launchforce = 75;
-            }
-
             if (rb != null)
             {
+                sound.Play();
                 rb.AddForce(transform.up * launchforce * timePct);
                 secondsHold = 0;
             }

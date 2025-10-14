@@ -1,9 +1,9 @@
 #### MCS 1643 README file
-# **Replace this Project Name**
+# Assignment 3 - Pinball
 
-#### Author: *Replace this with your name*
+#### Author: *CJ Feller*
 
-##### Modified: *2024-09-06*
+##### Modified: *2025-10-14*
 
 <br>
 
@@ -15,13 +15,18 @@
 ><i>(let me know what to look for, any additional keys to use, etc.)</i>   
 > &nbsp;
 
-**2. Did anything give you particular trouble?
+**2. Did anything give you particular trouble?**
+
+*there were time that the coding slipped me up because I thought I could listen and implement it. When I couldn't I just watched the video like I should've*
+
 > &nbsp;
 ><i>(If something in your assignment doesn't work or you think part of the tutorial can be improved, explain here)</i>   
 > &nbsp;
 
 #### Questions for projects: (remove this section for tutorial assignments)
-**1. What are the controls to your game? How do we play?**   
+**1. What are the controls to your game? How do we play?**
+
+*Use the Z and M keys to move the flippers. Spacebar is how to launch the ball*
 
 > &nbsp;
 ><i>(art, music, etc. Just tell us where you got it, link it here)</i>   
@@ -31,13 +36,19 @@
 
 **2. What creative additions/enhancements did you make? How can we find them?**   
 
+*I added materials and color to the game board via assests from the unity store. I also used a previously installed skybox from assignment 1 which was also found from the unity store*
+
 > &nbsp;
 ><i>(If you don't tell us how to experience them, we could easily miss them.)</i>   
 > &nbsp;
  
 
 
-**3. Any assets used that you didn't create yourself?**   
+**3. Any assets used that you didn't create yourself?**
+
+*SoundsNStuff folder audios were made using this website: https://sfxr.me/*
+*Music was found here: https://www.bensound.com/*
+*Textures and skyboxes were found here: https://assetstore.unity.com/search#q=skybox&nf-ec_price_filter=0...0*
 
 > &nbsp;
 ><i>(art, music, etc. Just tell us where you got it, link it here)</i>   
@@ -45,7 +56,9 @@
  
 
 
-**4. Did you receive help from anyone outside this class or from anyone in this class that is not in a group with you?**   
+**4. Did you receive help from anyone outside this class or from anyone in this class that is not in a group with you?**  
+
+*I worked entirely by myself following the video tutorials*
 
 > &nbsp;
 ><i>(list their names and what they helped with)</i>   
@@ -55,6 +68,8 @@
 
 **5. Did you get help from any AI Code Assistants?**   
 
+*No*
+
 > &nbsp;
 ><i>(Including things like Chat-GPT, Copilot, etc. Tell us which .cs file to look in for the citation and describe what you learned)</i>   
 > &nbsp;
@@ -63,13 +78,17 @@
 
 **6. Did you get help from any online websites, videos, or tutorials?**   
 
+*I used the tutorials provided in class to construct the code and board for this assignment.*
+
 > &nbsp;
 ><i>(link them here)</i>   
 > &nbsp;
  
 
 
-**7. What trouble did you have with this project?**   
+**7. What trouble did you have with this project?**  
+
+*None*
 
 > &nbsp;
 ><i>(Even if you didn't complete the project, you can still get partial credit if you tell us about why it's incomplete.)</i>   
